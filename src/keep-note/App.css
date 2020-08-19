@@ -1,0 +1,76 @@
+
+.header{
+  display: flex;
+  width: 100%;
+  background: yellowgreen;
+  height: 65px;
+}
+
+.noteEdMain{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.inputDiv{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  max-height: 220px;
+  min-height: 142px;
+  box-shadow: 4px 5px 20px 3px wheat;
+}
+input[name="title"]{
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+  background: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid lightgrey;
+  text-align: center;
+  font-weight: 600;
+}
+input[name="title"]:focus, textarea[name="content"]:focus{
+  outline: none;
+}
+textarea[name="content"]{
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  background: transparent;
+  border: 0px solid;
+  border-bottom: 2px solid lightgrey;
+  text-align: center;
+  font-weight: 600;
+}
+
+.allBtn{
+  min-width: 0 !important;
+  min-height: 36px !important;
+  border-radius: 50px !important;
+  width: 40px;
+  height: 40px;
+}
+.addBtn{
+  border: none;
+  margin-top: 5vh !important;
+}
+
+.addBtn:focus, .editBtn:focus, .delBtn:focus{
+  outline: none;
+}
+
+.editBtn{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: #707070 !important;
+}
+
+.delBtn{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: #707070 !important;
+}
+.editBtn:hover, .delBtn:hover{
+  background-color: #f9f9dc !important;
+}
