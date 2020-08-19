@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <>
             <div className="navDiv">
-                <NavLink exact className="link" activeClassName="active" to="/MyApp">Random Image</NavLink>
-                <NavLink exact className="link" activeClassName="active" to="/MyApp/keep-note">Keep-Note</NavLink>
+                <NavLink exact className="link" activeClassName="active" to="/">Random Image</NavLink>
+                <NavLink exact className="link" activeClassName="active" to="/keep-note">Keep-Note</NavLink>
             </div>
         </>
     )
