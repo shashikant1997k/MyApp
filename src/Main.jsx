@@ -11,7 +11,7 @@ const Main = () => {
            <Navbar />
            <Switch>
                <Route exact path="/MyApp" component={RandomImg} />
-               <Route exact path="/MyApp/keep-note" component={App} />
+               <Route path="/MyApp/keep-note" component={App} />
                <Route component={Error} />
            </Switch>
         </>

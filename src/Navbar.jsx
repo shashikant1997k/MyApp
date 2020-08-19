@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div className="navDiv">
                 <NavLink exact className="link" activeClassName="active" to="/MyApp">Random Image</NavLink>
-                <NavLink exact className="link" activeClassName="active" to="/MyApp/keep-note">Keep-Note</NavLink>
+                <NavLink className="link" activeClassName="active" to="/MyApp/keep-note">Keep-Note</NavLink>
             </div>
         </>
     )
