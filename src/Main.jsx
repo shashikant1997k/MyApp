@@ -9,8 +9,8 @@ const Main = () => {
         <>
            <Navbar />
            <Switch>
-               <Route exact path="/" component={RandomImg} />
-               <Route exact path="/keep-note" component={App} />
+               <Route exact path="/MyApp" component={RandomImg} />
+               <Route exact path="/MyApp/keep-note" component={App} />
            </Switch>
         </>
     )
